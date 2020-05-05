@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBand - доставка еды на дом</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img\logo.svg" alt="logo" class="logo">
+        </a>
+        <input type="text" class="input input-adress" placeholder="Адрес доставки">
+        <div class="buttons">
+            <button class="button button-primary">
+                <img src="img\person.svg" alt="user" class="button-icon">
+                <span class="button-text">Войти</span>
+            </button>
+            <button class="button" id="cart-button">
+            <img src="img\shopping_cart.svg" alt="shopping card" class="button-icon">
+                <span class="button-text">Корзина</span>
+            </button>
+        </div>
+    </header>
+   
+   </div>
+   <main class="main">
+       <div class="container">
+       
+        <section class="restaurants">
+            <div class="section-heading">
+                <h2 class="section-title">FoodBand</h2>
+                <div class="card-info">
+                    <div class="rating">
+                        <img src="img\star.svg" alt="rating">
+                        4.5
+                    </div>
+                    <div class="price">От 349 ₽</div>
+                    <div class="category">Пицца</div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/b5a30083.jpg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Маргарита</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients">Сыр моцарелла, соус Помодоро, итальянские травы, тесто</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">349 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card -->
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="img/2b8c3960-93cb-11e8-ad87-d32adda919e9.jpg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Пепперони</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients-pepperoni">Колбаса пепперони, томат, каперсы, оливки, сыр моцарелла, соус Помодоро</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">399 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <img src="img/carbonarajpg.jpg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Пицца Карбонара</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients">Бекон, яйцо, сыр пармезан, сыр моцарелла, соус Помодоро, тесто</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">349 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/lasagna.jpg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Лазанья мясная</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients">свинина, говядина, лук, соус Помадоро, соус Бешамель, сыр Гауда</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">349 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="img/pasta.jpg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Паста Карбонара</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients">Бекон, сливки, яйцо, чеснок, сыр пармезан</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">289 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <img src="img/toscana.jpeg" alt="image" class="card-image">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title card-title-reg">Салат Тоскана</h3>
+                        </div>
+                        <div class="card-info">
+                            <div class="ingredients">Лосось, яйцо, зеленый лук, майонез, сыр гауда, чесночная гренка</div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="button button-primary">
+                                <span class="button-card-text">В корзину</span>
+                                <img
+                                 src="img\wsc.svg"
+                                  alt="Корзина"
+                                   class="button-card-image">
+                            </button>
+                            <strong class="card-price-bold">239 ₽</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.cards -->
+        </section>
+       </div>
+       <!-- /.container -->
+   </main>
+
+   <footer class="footer">
+       <div class="container">
+           <div class="footer-block">
+               <img src="img/logo.svg" alt="logo" class="logo footer-logo">
+               <nav class="footer-nav">
+                   <a href="#" class="footer-link">Ресторанам</a>
+                   <a href="#" class="footer-link">Курьерам</a>
+                   <a href="#" class="footer-link">Пресс-центр</a>
+                   <a href="#" class="footer-link">Контакты</a>
+               </nav>
+               <div class="social-links">
+                   <a href="" class="social-link"><img src="img/insta.svg" alt="instagram"></a>
+                   <a href="" class="social-link"><img src="img/f-b.svg" alt="facebook"></a>
+                   <a href="" class="social-link"><img src="img/vk.svg" alt="vk"></a>
+               </div>
+           </div>
+       </div>
+    </footer>
+
+<div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <h3 class="modal-title">Корзина</h3>
+            <button class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="food-row">
+                <spam class="food-name">Маргарита</spam>
+                <strong class="food-price">349 ₽</strong>
+                <div class="food-counter">
+                    <button class="counter-button">-</button>
+                    <span class="counter">1</span>
+                    <button class="counter-button">+</button>
+                </div>
+            </div>
+            <div class="food-row">
+                <spam class="food-name">Маргарита</spam>
+                <strong class="food-price">349 ₽</strong>
+                <div class="food-counter">
+                    <button class="counter-button">-</button>
+                    <span class="counter">1</span>
+                    <button class="counter-button">+</button>
+                </div>
+            </div>
+             <div class="food-row">
+                <spam class="food-name">Маргарита</spam>
+                <strong class="food-price">349 ₽</strong>
+                <div class="food-counter">
+                    <button class="counter-button">-</button>
+                    <span class="counter">1</span>
+                    <button class="counter-button">+</button>
+                </div>
+            </div>
+             <div class="food-row">
+                <spam class="food-name">Маргарита</spam>
+                <strong class="food-price">349 ₽</strong>
+                <div class="food-counter">
+                    <button class="counter-button">-</button>
+                    <span class="counter">1</span>
+                    <button class="counter-button">+</button>
+                </div>
+            </div>
+             <div class="food-row">
+                <spam class="food-name">Маргарита</spam>
+                <strong class="food-price">349 ₽</strong>
+                <div class="food-counter">
+                    <button class="counter-button">-</button>
+                    <span class="counter">1</span>
+                    <button class="counter-button">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <span class="modal-pricetag">1745 ₽</span>
+            <div class="footer-buttons">
+                <button class="button button-primary">Оформить заказ</button>
+                <button class="button">Отмена</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
